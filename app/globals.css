@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
+
+a,
+li {
+  cursor: pointer;
+}
+
+.main {
+  font-weight: 600;
+  transition: 0.3s;
+  position: relative;
+}
+
+.main::after {
+  content: "↓";
+  position: absolute;
+  font-weight: 700;
+  bottom: 100px;
+  right: 45%;
+  transition: 0.2s all ease-in-out;
+}
+
+.main:hover::after {
+  bottom: 20px;
+}
+
+.arrow {
+  position: relative;
+  transition: 0.3s;
+}
+
+.arrow::after {
+  content: "↙";
+  position: absolute;
+  bottom: 12px;
+  transform: translate(20px, -30px);
+  transition: 0.2s;
+}
+
+.arrow:hover::after {
+  transform: translate(0);
+  transition: 0.2s all ease-in-out;
+}
+
+.orangeText {
+  background: linear-gradient(270deg, #f9cb28 10%, #ff4d4d 90%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 4px 16px #ff4d4d, 0px 8px 24px #ff4d4d 0px 16px 56px #ff4d4d;
+}
+
+.orangeBackground {
+  background: linear-gradient(270deg, #f9cb28 4.51%, #ff4d4d 95.9%);
+  box-shadow: 0px 2px 4px 1px rgba(255, 77, 77, 0.2);
+}
+
+.blueText {
+  background: linear-gradient(90deg, #007cf0 0%, #00dfd8 104.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.purpleText {
+  background: linear-gradient(270deg, #ff0080 4.51%, #7928ca 95.9%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.orangeHover {
+  transition: 0.3s;
+}
+
+.blueHover {
+  transition: 0.3s;
+}
+
+.purpleHover {
+  transition: 0.3s;
+}
+
+.orangeHover:hover {
+  box-shadow: #ff4d4d1c 0px 9px 30px;
+  border: 1px solid #ff714d;
+  transition: 0.3s;
+}
+
+.blueHover:hover {
+  box-shadow: 0px 9px 30px #0098f01e;
+  border: 1px solid #0098f0;
+  transition: 0.3s;
+}
+
+.purpleHover:hover {
+  box-shadow: 0px 9px 30px #ff00aa21;
+  border: 1px solid #ff00b3;
+  transition: 0.3s;
+}
+
+hr {
+  color: #eaeaea;
+}
+
+.faq {
+  position: relative;
+}
+
+.faq::after {
+  content: "→";
+  font-size: 30px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  transition: 0.2s all ease-in-out;
+}
+
+.faq:hover::after {
+  right: -10px;
+}
