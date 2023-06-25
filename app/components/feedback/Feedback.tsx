@@ -72,11 +72,8 @@ const Feedback = () => {
         </div>
         <div className="relative w-full">
           <textarea
-            className="w-full p-3 text-[16px] border border-gray-border focus:outline rounded-md"
-            type="text"
+            className="w-full h-[200px] p-3 text-[16px] border border-gray-border focus:outline rounded-md"
             placeholder="Сообщение"
-            rows="4"
-            cols="50"
             {...register("message", {
               required: true,
               maxLength: 2000,
