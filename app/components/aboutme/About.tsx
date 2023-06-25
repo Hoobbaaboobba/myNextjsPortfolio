@@ -1,11 +1,14 @@
 "use client";
 import Image from "next/image";
 import myphoto from "../../images/myphoto.png";
+import myphoto2 from "../../images/myphoto2.png";
 import WriteMeButton from "./WriteMeButton";
-import Faq from "./Faq";
 import background from "../../images/dotbackground.png";
+import { useState } from "react";
 
 const About = () => {
+  const [photo, setPhoto] = useState(false);
+
   return (
     <div className="mt-[80px] md:mt-[150px] flex justify-center items-center">
       <Image
@@ -19,17 +22,24 @@ const About = () => {
             Привет! Я <span className="blueText">Алексей Матвеев</span> <br />
             Frontend разработчик
           </h1>
-          <h3 className="text-text-gray dark:text-white text-sm lg:text-xl">
+          <h3 className="text-text-gray text-2xl dark:text-white text-sm lg:text-xl">
             Занимаюсь вёрсткой сайтов на HTML и CSS с использованием таких
             фреймворков, как React и Next
           </h3>
           <div className="mt-[20px] md:mt-[40px] flex gap-2 sm:gap-8 flex-col sm:flex-row w-full justify-center items-center md:justify-start md:items-start">
             <WriteMeButton />
-            <Faq />
           </div>
         </div>
-        <div>
-          <Image src={myphoto} alt="myphoto" width="350" height="350" />
+        <div
+          className="myphoto relative"
+          onMouseEnter={() => setPhoto(true)}
+          onMouseLeave={() => setPhoto(false)}
+        >
+          {photo ? (
+            <Image src={myphoto2} alt="myphoto" width="350" height="350" />
+          ) : (
+            <Image src={myphoto} alt="myphoto" width="350" height="350" />
+          )}
         </div>
       </div>
     </div>

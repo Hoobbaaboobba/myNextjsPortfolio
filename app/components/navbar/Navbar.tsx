@@ -1,10 +1,8 @@
 "use client";
 
-import Image from "next/image";
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import Logo from "./Logo";
 import MenuButtons from "./Menubuttons";
-import LanguageButton from "./LanguageButton";
 import DarkModeButton from "./DarkmodeButton";
 import MenuButton from "./MenuButton";
 
