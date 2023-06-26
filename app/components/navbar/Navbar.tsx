@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Logo from "./Logo";
 import MenuButtons from "./Menubuttons";
 import DarkModeButton from "./DarkmodeButton";
@@ -17,7 +17,9 @@ const Navbar = () => {
     }
   };
 
-  window.addEventListener("scroll", changerBorder);
+  useEffect(() => {
+    window.addEventListener("scroll", changerBorder);
+  });
 
   return (
     <header
