@@ -18,11 +18,11 @@ const About = () => {
       />
       <div className="flex 2xl:mt-[40px] flex-col-reverse gap-2 md:gap-8 md:flex-row max-w-[1300px] w-full justify-center md:justify-between items-center md:items-start px-6">
         <div className="flex flex-col gap-2 md:gap-4 max-w-[450px] md:max-w-[700px] md:w-full text-center md:text-start px-2 md:py-0">
-          <h1 className="text-[24px] md:text-4xl lg:text-5xl font-semibold">
+          <h1 className="text-[26px] md:text-4xl lg:text-5xl font-semibold">
             Привет! Я <span className="blueText">Алексей Матвеев</span> <br />
             Web разработчик
           </h1>
-          <h3 className="text-text-gray dark:text-white text-sm lg:text-xl">
+          <h3 className="text-text-gray  text-sm lg:text-xl">
             Занимаюсь вёрсткой сайтов на HTML и CSS с использованием таких
             фреймворков, как React и Next
           </h3>
