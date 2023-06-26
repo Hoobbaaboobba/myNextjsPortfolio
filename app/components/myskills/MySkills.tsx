@@ -5,7 +5,7 @@ import MySkillButton from "./MySkillButton";
 
 const MySkills = () => {
   return (
-    <div className="relative mt-[80px] lg:mt-[250px] flex flex-col gap-[20px] justify-center items-center mx-6">
+    <div className="relative mt-[120px] lg:mt-[250px] flex flex-col gap-[20px] justify-center items-center mx-6">
       <div id="myskills" className="absolute top-[-100px]"></div>
       <h1 className="text-center text-5xl lg:text-[4rem] font-semibold">
         Мои умения
