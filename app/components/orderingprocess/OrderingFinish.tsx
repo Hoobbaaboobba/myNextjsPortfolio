@@ -13,7 +13,7 @@ const OrderingFinish = () => {
           className="text-text-gray p-1 bg-gray-border border border-text-gray rounded-md"
         />
         <h3 className="text-3xl font-semibold">Готово</h3>
-        <p className="text-text-gray text-center max-w-[430px] lg:text-start dark:text-white">
+        <p className="text-text-gray text-center max-w-[430px] lg:text-start">
           Если вас всё устроило, вы оплачиваете заказ и я вам отправляю сайт. Вы
           можете, конечно, попросить что-то изменить или исправить.
         </p>

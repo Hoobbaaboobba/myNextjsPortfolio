@@ -22,7 +22,7 @@ const OrderingChat = () => {
           className="text-text-gray p-1 bg-gray-border border border-text-gray rounded-md"
         />
         <h3 className="text-3xl font-semibold">Обсуждение деталей</h3>
-        <p className="text-text-gray text-center max-w-[430px] lg:text-start dark:text-white">
+        <p className="text-text-gray text-center max-w-[430px] lg:text-start">
           Общаемся в популярных мессенджерах, вы высказываете свои пожелания и
           предпочтения
         </p>

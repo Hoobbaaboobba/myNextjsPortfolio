@@ -16,7 +16,7 @@ const OrderingInput = () => {
           className="text-text-gray bg-gray-border border border-text-gray rounded-md"
         />
         <h3 className="text-3xl font-semibold">Напиши мне сообщение</h3>
-        <p className="text-text-gray text-center lg:text-start dark:text-white">
+        <p className="text-text-gray text-center lg:text-start">
           Следуй ниже и заполните форму. Я работаю без выходных
         </p>
       </div>

@@ -20,7 +20,7 @@ const OrderingDesign = () => {
           className="text-text-gray p-1 bg-gray-border border border-text-gray rounded-md"
         />
         <h3 className="text-3xl font-semibold">Согласование дизайна</h3>
-        <p className="text-text-gray text-center max-w-[430px] lg:text-start dark:text-white">
+        <p className="text-text-gray text-center max-w-[430px] lg:text-start">
           Я отправляю вам готовый дизайн в figma. Если вам что-то не
           понравилось, вы смело можете запросить правки.
         </p>
