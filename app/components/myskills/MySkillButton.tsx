@@ -24,21 +24,12 @@ const MySkillButton: React.FC<MySkillButtonProps> = ({
   const [buttonHover, setButtonHover] = useState(false);
   const [isOpenCard, setIsOpenCard] = useState(false);
 
-  const overflowHidden = () => {
-    setIsOpenCard(true);
-    document.body.classList.add("overflowNone");
-  };
-  const overflowShow = () => {
-    setIsOpenCard(false);
-    document.body.classList.remove("overflowNone");
-  };
-
   return (
     <>
       <div
         onMouseEnter={() => setButtonHover(true)}
         onMouseLeave={() => setButtonHover(false)}
-        onClick={overflowHidden}
+        onClick={setIsOpenCard(true)}
         className={`${hoverColor} ${
           isOpenCard
             ? "rounded-lg cursor-pointer w-[300px] border border-gray-border flex justify-between items-center py-[12px] px-4"
@@ -59,7 +50,7 @@ const MySkillButton: React.FC<MySkillButtonProps> = ({
           isOpenCard ? "block" : "hidden"
         } fixed left-0 top-0 z-[100]`}
       >
-        <div onClick={overflowShow} className="popUpBg"></div>
+        <div onClick={setIsOpenCard(false)} className="popUpBg"></div>
         <div className="popUp dark:bg-black max-w-[350px] lg:max-w-[450px] py-[10px] px-[20px] flex flex-col gap-2 border border-gray-border justify-between">
           <h3 className={`${color} text-[22px] font-bold text-center`}>
             {mastery}
@@ -67,7 +58,7 @@ const MySkillButton: React.FC<MySkillButtonProps> = ({
           <p className="pb-2 text-center">{cardText}</p>
           <div
             className="absolute top-1 right-1 cursor-pointer"
-            onClick={overflowShow}
+            onClick={setIsOpenCard(false)}
           >
             <CancelIcon />
           </div>
