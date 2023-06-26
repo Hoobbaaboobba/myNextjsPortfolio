@@ -3,7 +3,7 @@ import Feedback from "./components/feedback/Feedback";
 import Footer from "./components/footer/Footer";
 import MySkills from "./components/myskills/MySkills";
 import Navbar from "./components/navbar/Navbar";
-import OrderingProcess from "./components/orderingpocess/OrderingProcess";
+import OrderingProcess from "./components/orderingprocess/OrderingProcess";
 import Portfolio from "./components/portfolio/Portfolio";
 import "./globals.css";
 import Providers from "./provides";
