@@ -1,15 +1,9 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-
 const Logo = () => {
-  const router = useRouter();
   return (
-    <div
-      onClick={() => router.push("/")}
-      className="font-semibold text-4xl cursor-pointer"
-    >
-      M
+    <div className="font-semibold text-4xl cursor-pointer">
+      <a href="#feedback">M</a>
     </div>
   );
 };
