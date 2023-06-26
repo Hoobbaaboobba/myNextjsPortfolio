@@ -1,3 +1,5 @@
+"use client";
+
 import OrderingChat from "./OrderingChat";
 import OrderingDesign from "./OrderingDesign";
 import OrderingFinish from "./OrderingFinish";
@@ -10,7 +12,7 @@ const OrderingProcess = () => {
       <h1 className="text-[45px] lg:text-[4rem] font-semibold mt-[50px]">
         Процесс заказа
       </h1>
-      <p className="text-center text-xl text-text-gray my-[5px] lg:mb-[30px] dark:text-white">
+      <p className="text-center text-xl text-text-gray my-[5px] lg:mb-[30px] mx-4">
         Подробная инструкция того, как происходит оформление заказа
       </p>
       <div className="flex flex-col justify-center items-center max-w-[1000px] w-full">
