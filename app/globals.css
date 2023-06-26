@@ -3,8 +3,8 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
 
-html, body {
-  scroll-behavior: smooth;
+*, html, body {
+  scroll-behavior: smooth !important;
 }
 
 a,
