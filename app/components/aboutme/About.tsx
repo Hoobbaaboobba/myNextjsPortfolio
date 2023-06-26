@@ -10,7 +10,7 @@ const About = () => {
   const [photo, setPhoto] = useState(false);
 
   return (
-    <div className="mt-[80px] md:mt-[150px] flex justify-center items-center">
+    <div className="mt-[120px] md:mt-[150px] flex justify-center items-center">
       <Image
         src={background}
         alt="background"
