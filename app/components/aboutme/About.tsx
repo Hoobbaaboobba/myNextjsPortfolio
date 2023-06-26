@@ -20,7 +20,7 @@ const About = () => {
         <div className="flex flex-col gap-2 md:gap-4 max-w-[450px] md:max-w-[700px] md:w-full text-center md:text-start px-2 md:py-0">
           <h1 className="text-[24px] md:text-4xl lg:text-5xl font-semibold">
             Привет! Я <span className="blueText">Алексей Матвеев</span> <br />
-            Frontend разработчик
+            Web разработчик
           </h1>
           <h3 className="text-text-gray text-2xl dark:text-white text-sm lg:text-xl">
             Занимаюсь вёрсткой сайтов на HTML и CSS с использованием таких
