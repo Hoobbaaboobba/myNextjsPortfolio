@@ -20,10 +20,10 @@ const Feedback = () => {
       id="feedback"
       className="flex flex-col justify-center items-center my-[80px] lg:mt-[150px] mx-[10px]"
     >
-      <h1 className="text-[45px] lg:text-[4rem] text- font-semibold mt-[80px] mb-[20px]">
+      <h1 className="text-[45px] lg:text-[4rem] text- font-semibold mt-[80px] mb-[10px]">
         Обратная связь
       </h1>
-      <p className="text-center text-xl lg:text-2xl mb-[20px] lg:mb-[50px] text-text-gray">
+      <p className="text-center text-lg lg:text-2xl mb-[20px] lg:mb-[50px] text-text-gray">
         Заполни форму, чтобы начать сотрудничество, как можно скорее
       </p>
       <form

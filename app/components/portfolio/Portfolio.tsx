@@ -14,7 +14,7 @@ const Portfolio = () => {
     <div className="relative text-center mt-[70px] px-6 flex flex-col justify-center items-center">
       <div id="portfolio" className="absolute top-[-100px]"></div>
       <h1 className="text-[45px] lg:text-[4rem] font-semibold">Портфолио</h1>
-      <p className="text-center text-xl mb-[20px] lg:mb-[50px] text-text-gray">
+      <p className="text-center text-lg mb-[20px] lg:mb-[50px] text-text-gray">
         Здесь собраны все проекты, разработанные мной, в течение года работы на
         фрилансе
       </p>

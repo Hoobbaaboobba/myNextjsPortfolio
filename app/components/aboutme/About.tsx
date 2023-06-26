@@ -22,7 +22,7 @@ const About = () => {
             Привет! Я <span className="blueText">Алексей Матвеев</span> <br />
             Web разработчик
           </h1>
-          <h3 className="text-text-gray  text-sm lg:text-xl">
+          <h3 className="text-text-gray  text-lg lg:text-xl">
             Занимаюсь вёрсткой сайтов на HTML и CSS с использованием таких
             фреймворков, как React и Next
           </h3>

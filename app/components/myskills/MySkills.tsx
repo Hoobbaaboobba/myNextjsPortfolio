@@ -10,7 +10,7 @@ const MySkills = () => {
       <h1 className="text-center text-5xl lg:text-[4rem] font-semibold">
         Мои умения
       </h1>
-      <p className="text-center text-xl mb-[20px] lg:mb-[50px] text-text-gray">
+      <p className="text-center text-lg mb-[20px] lg:mb-[50px] text-text-gray">
         Это все технологии, которые я могу использовть в пректах на ваш выбор.
         <br />
         Цветным отмечены уровни владения мной той или оной технологией
