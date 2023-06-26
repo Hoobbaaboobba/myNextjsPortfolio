@@ -3,9 +3,10 @@
 import Image from "next/image";
 import { useState } from "react";
 import CancelIcon from "@mui/icons-material/Cancel";
+import { StaticImageData } from "next/image";
 
 interface PortfolioItemIterface {
-  image?: string;
+  photo: string | StaticImageData;
   name?: string;
   tech?: string;
   inst?: string;
@@ -14,7 +15,7 @@ interface PortfolioItemIterface {
 }
 
 const PortfolioItem: React.FC<PortfolioItemIterface> = ({
-  image,
+  photo,
   name,
   tech,
   linkName,
@@ -29,9 +30,9 @@ const PortfolioItem: React.FC<PortfolioItemIterface> = ({
         className="portfolioItem border flex flex-col dark:border-black dark:hover:border-white gap-6 border-gray-border py-4 px-4 rounded-md cursor-pointer"
       >
         <Image
-          src={image}
+          src={photo}
           className="portfolioImg rounded-lg grayscale"
-          alt={image}
+          alt="image"
         />
         <h3 className="text-2xl">{name}</h3>
       </div>

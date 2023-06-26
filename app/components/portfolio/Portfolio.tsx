@@ -20,7 +20,7 @@ const Portfolio = () => {
       </p>
       <div className="flex flex-wrap py-[60px] max-w-[1300px] w-full justify-center items-center gap-4">
         <PortfolioItem
-          image={ImageMockup}
+          photo={ImageMockup}
           name="Gohub"
           tech="HTML CSS JavaScript"
           linkName="Gohub.io"
@@ -28,7 +28,7 @@ const Portfolio = () => {
           link="https://hoobbaaboobba.github.io/mockup/"
         />
         <PortfolioItem
-          image={ImageBarber}
+          photo={ImageBarber}
           name="Barbershop"
           tech="HTML CSS JavaScript"
           linkName="Barbershop.io"
@@ -36,7 +36,7 @@ const Portfolio = () => {
           link="https://hoobbaaboobba.github.io/barbershop/"
         />
         <PortfolioItem
-          image={ImageGym}
+          photo={ImageGym}
           name="Sport Center"
           tech="HTML CSS JavaScript"
           linkName="SportCenter.io"
@@ -44,7 +44,7 @@ const Portfolio = () => {
           link="https://hoobbaaboobba.github.io/gym/"
         />
         <PortfolioItem
-          image={ImageRenta}
+          photo={ImageRenta}
           name="SeverSnab"
           tech="HTML CSS JavaScript"
           linkName="SeverSnab.io"
@@ -52,7 +52,7 @@ const Portfolio = () => {
           link="https://hoobbaaboobba.github.io/rentasnabb.github.io/"
         />
         <PortfolioItem
-          image={ImageChe}
+          photo={ImageChe}
           name="Ольга"
           tech="HTML CSS JavaScript"
           linkName="ОльгаЧё.io"
@@ -60,7 +60,7 @@ const Portfolio = () => {
           link="https://hoobbaaboobba.github.io/MKCHE/"
         />
         <PortfolioItem
-          image={ImageAlexis}
+          photo={ImageAlexis}
           name="Alexis"
           tech="HTML CSS JavaScript"
           linkName="Alexis.io"
@@ -68,7 +68,7 @@ const Portfolio = () => {
           link="https://hoobbaaboobba.github.io/alexis/"
         />
         <PortfolioItem
-          image={ImageTrip}
+          photo={ImageTrip}
           name="Trip"
           tech="HTML CSS JavaScript"
           linkName="Trip.io"
