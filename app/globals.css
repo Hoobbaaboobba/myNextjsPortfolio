@@ -113,6 +113,25 @@ hr {
 
 @media (min-width: 1024px) {
   .portfolioItem {
+  transition: 0.2s all ease-in-out;
+  }
+
+  .portfolioItem:hover {
+    border: 1px solid black;
+    transition: 0.2s all ease-in-out;
+  }
+
+  .portfolioImg {
+    transition: 0.2s all ease-in-out;
+  }
+
+  .portfolioItem:hover .portfolioImg {
+    filter: grayscale(0);
+    transition: 0.2s all ease-in-out;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  }
+
+  .portfolioItem {
     transition: 0.2s all ease-in-out;
   }
 
@@ -218,25 +237,6 @@ hr {
   border-radius: 20px;
   background: linear-gradient(270deg, #ff0080 4.51%, #7928ca 95.9%);
   z-index: -1;
-}
-
-.portfolioItem {
-  transition: 0.2s all ease-in-out;
-}
-
-.portfolioItem:hover {
-  border: 1px solid black;
-  transition: 0.2s all ease-in-out;
-}
-
-.portfolioImg {
-  transition: 0.2s all ease-in-out;
-}
-
-.portfolioItem:hover .portfolioImg {
-  filter: grayscale(0);
-  transition: 0.2s all ease-in-out;
-  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .overflowNone {
